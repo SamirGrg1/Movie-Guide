@@ -116,6 +116,22 @@ nav {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+#dark-mode-toggle {
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+#icon {
+    cursor: pointer;
+    height: 1.6rem;
+    border-radius: 50%;
+   
+}
+
+#icon:hover {
+    cursor: pointer;
+}
 
 .search-container button:hover {
     background-color: #0056b3;
@@ -242,4 +258,71 @@ footer {
         margin-right: 0;
         margin-bottom: 1rem; /* Space below the poster on small screens */
     }
+}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.dark-mode nav {
+    background-color: #1f1f1f;
+}
+
+.dark-mode footer {
+    background-color: #1f1f1f;
+    color: #CCCCCC;
+}
+
+.dark-mode .search-container input {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: 1px solid #555555;
+}
+
+.dark-mode .search-container button {
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+.dark-mode .movie-container h2 {
+    color: #FFFFFF;
+}
+
+.dark-mode .movie-details {
+    background-color: #1e1e1e;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adjusted shadow for dark mode */
+}
+
+.dark-mode .movie-poster {
+    background-color: #333333;
+}
+
+.dark-mode .movie-info {
+    background-color: #2a2a2a;
+}
+.dark-mode .movie-info p {
+    color:white;
+}
+
+.dark-mode .error-message {
+    background-color: #ffccd5;
+    color: #721c24;
+}
+
+.dark-mode .genre-box {
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+.dark-mode .rating {
+    color: #ffcc00; /* Keep gold color for stars */
+}
+
+/* Dark Mode for button hover effects */
+.dark-mode .search-container button:hover {
+    background-color: #555555;
 }

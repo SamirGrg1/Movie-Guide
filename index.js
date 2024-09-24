@@ -70,5 +70,5 @@ toggleButton.addEventListener("click",()=>{
         body.classList.remove('dark-mode');
         cur="light";
         icon.src="moon.png";
-    }
+    } 
 });
